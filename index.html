@@ -1,0 +1,98 @@
+<!dOCTYPE HTML>
+<html lang=" en">
+    </head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Web Developer | Responsive Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <!--Link to your CSS file-->
+        <link href="https://fonts.googleapis.com/css2?family=poppins:wght@400;500;700&display=swap"rel="stylesheet">
+     </head> 
+     <body>
+        <!--Header and Navigation-->
+       <header>
+
+         <h1>Eniola's Portfolio</h1>  
+          <p>Showcasing my Projects,Skills,and more</p>
+            <nav>
+                <ul>
+                 <li><a href="#about">About Me</a></li>
+                 <li><a href="#projects">Projects</a></li>
+                 <li><a href="skills">Skills</a></li>
+                 <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+     <!--About Me Section-->
+     <section id="about">
+     <h2>AboutMe</h2>
+     <p>Hi,I'm Ayansiji Eniola Davidia,a passionate and determined Web Developer from Lagos State,Nigeria.I have a strong interest in creating
+      innovative and user friendly web applications am constantly learning new technologies to enhance my skills.I specialize in HTML,CSS 
+      and JavaScript,and I enjoy building sleek,responsive designs.I am a student with just little experience so I am willing to learn more
+     and expand my knowledge.I really love to code.Thank you! </p>
+     </section>
+     
+     <!--Projects Section-->
+     <section id="Projects" class="container">
+        <h2>Projects</h2>
+        <div class="projects">
+      <!--project 1-->
+         <div class="project-item">
+          <img src="Images/project1.jpg.JPG" alt="Weather App">
+              <h3>Weather app</h3>
+              <p>A dynamic web application that fetches real-time weather data for any location using a weather API.
+                Includes features like temperature,humidity,and a 5-day forecast. </p>
+         </div>
+
+         <!--Project 2-->
+         <div class="project-item">
+         <img src="Images/project2.jpg.JPG" alt="Portfolio Website">
+            <h3>Portfolio Website</h3>
+          <p>A morden and fully responsive portfolio website showcasing my skills,projects,and contact information.
+            Designed with clean UI and interactive animations.</p>
+          </div>
+
+          <!--Project 3-->
+          <div class="project-item">
+          <img src="Images/project3.jpg.JPG" alt="Manager">
+             <h3>Task Manager</h3>
+          <p>An intuitive task management tool with features like drag-and-drop and deadline reminders</p>
+          </div>
+         </div>
+     </section>
+
+     <!--Skills Section-->
+    <section id="skills" class="container">
+       <h2>Skills</h2>
+       <div class="skills">
+        <div class="skill-item">HTML</div>
+        <div class="skill-item">CSS</div>
+        <div class="skill-item">JavaScript</div>
+       </div>
+    </section>
+       <!--Contact Form Section-->
+       <section id="contact" class="container">
+        <h2>Contact Me</h2>
+       <form id="contactForm">
+       <label for="name">Your Name:</label>
+       <input type="text" id="name" name="name" required>
+
+       <label for="email">Your Email:</label>
+       <input type="email" id="email" name="email" required>
+     
+       <label for="message">Your Message:</label>
+       <textarea id="message" name="message"  required></textarea>
+
+        <button type="submit">Send Message</button>
+       </form>
+     </section>
+
+     <!--Footer-->
+     <footer>
+      <p>&copy;2025 Eniola's Portfolio.Designed with love</p>
+     </footer>
+
+     <script src="script.js"></script>
+      </body> 
+</html>
